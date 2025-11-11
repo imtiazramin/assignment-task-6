@@ -51,36 +51,65 @@
 
     </section>
 
-<!-- 
+
     <section>
         <div class="my-16">
             <h1 class="text-4xl font-bold py-3 text-center mt-8"><span class="text-[#00BCFF]">Frequently</span>Asked Questions</h1>
         </div>
  
-        <div class="my-24">
-            <div class="collapse collapse-plus bg-base-100 border border-base-300 ">
+        <div class="m-24 ">
+            <div class="collapse collapse-plus bg-base-100 border border-base-300 my-7 bg-gray-100">
   <input type="radio" name="my-accordion-3" checked="checked" />
-  <div class="collapse-title font-semibold ">How do I create an account?</div>
-  <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+  <div class="collapse-title font-semibold text-2xl">the difference between var, let, and const</div>
+  <div class="collapse-content text-xl text-gray-600 font-semibold">
+    <ul>
+      <li>var: Declares variables with function or global scope and allows re-declaration and updates within the same scope.</li>
+      <li>let: Declares variables with block scope, allowing updates but not re-declaration within the same block.</li>
+      <li>const: Declares block-scoped variables that cannot be reassigned after their initial assignment.</li>
+    </ul>
+  </div>
 </div>
-<div class="collapse collapse-plus bg-base-100 border border-base-300">
+<div class="collapse collapse-plus bg-base-100 border border-base-300 my-7 bg-gray-100">
   <input type="radio" name="my-accordion-3" />
-  <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
-  <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+  <div class="collapse-title font-semibold text-2xl" > the difference between map(), forEach(), and filter()</div>
+  <div class="collapse-content text-xl text-gray-600 font-semibold">
+    <ul>
+      <li>map() will return a new array as per the conditions applied.</li>
+      <li>forEach() will not return anything. forEach() returns undefined.</li>
+      <li>filter()method will return an array of matching elements else will return an empty array if no matching happens.</li>
+    </ul>
+  </div>
 </div>
-<div class="collapse collapse-plus bg-base-100 border border-base-300">
+<div class="collapse collapse-plus bg-base-100 border border-base-300 my-7 bg-gray-100">
   <input type="radio" name="my-accordion-3" />
-  <div class="collapse-title font-semibold">How do I update my profile information?</div>
-  <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+  <div class="collapse-title font-semibold text-2xl"> explain arrow functions and how they are different from regular functions</div>
+  <div class="collapse-content text-xl text-gray-600 font-semibold">
+    <ul>
+      <li>Arrow functions are well-suited for concise, simple functions, especially as callbacks in array methods (like map, filter, reduce) or in contexts where you want to preserve the this context of the surrounding scope.</li>
+      <li>Regular functions are necessary when you need a dynamic this binding, when defining methods within classes, or when creating constructor functions.</li>
+    </ul>
+  </div>
+</div>
+<div class="collapse collapse-plus bg-base-100 border border-base-300 my-7 bg-gray-100">
+  <input type="radio" name="my-accordion-3" />
+  <div class="collapse-title font-semibold text-2xl"> how JavaScript Promises work
+</div>
+  <div class="collapse-content text-xl text-gray-600 font-semibold">A JavaScript Promise is an object that represents a value that will be available in the future — it can be pending, fulfilled, or rejected — used to handle asynchronous operations cleanly.</div>
+</div>
+<div class="collapse collapse-plus bg-base-100 border border-base-300 my-7 bg-gray-100">
+  <input type="radio" name="my-accordion-3" />
+  <div class="collapse-title font-semibold text-2xl"> how closures work in JavaScript
+</div>
+  <div class="collapse-content text-xl text-gray-600 font-semibold">A closure in JavaScript happens when an inner function remembers and accesses variables from its outer function’s scope, even after the outer function has finished executing.</div>
 </div>
         </div>
 
-    </section> -->
+    </section>
 
 
 
 
-
+ 
     <section class="border-t-2 border-orange-100 mt-10">
 
     </section>
@@ -113,5 +142,6 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="js/toggol.js"></script>
 </body>
 </html>

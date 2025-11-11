@@ -14,7 +14,7 @@ function loadCatagory(Lessons){
     const lessonDiv=document.createElement("div")
     
      lessonDiv.innerHTML=`
-  <button class="btn  flex items-center gap-2 border border-blue-500 text-blue-500"><img src="assets/fa-book-open.png" alt=""> Lessons-${lesson.level_no}</button>
+  <button id="btn-${lesson.id}" class="btn  flex items-center gap-2 border border-blue-500 text-blue-500"><img src="assets/fa-book-open.png" alt=""> Lessons-${lesson.level_no}</button>
     
     `;
     LessonsContanier.append(lessonDiv)
