@@ -1,4 +1,3 @@
- document.getElementById("bannar-contanier").style.display="block"
 
 document.getElementById("FAQ-btn").addEventListener("click",function(event){
     document.getElementById("Vocabularies-contanier").style.display="block"
@@ -34,7 +33,7 @@ document.getElementById("main-contanier").style.display="none"
 
         if(personePassword===convertedPin){
              document.getElementById("main-contanier").style.display="block"
-            
+            document.getElementById("bannar-contanier").style.display="none"
         }
         else{
            alert("Show an alert if the password is not 123456")
@@ -47,15 +46,8 @@ document.getElementById("main-contanier").style.display="none"
 
 
 
-document.getElementById("Questions-contanier").style.display="block"
-    document.getElementById("Vocabularies-contanier").style.display="block"
-    document.getElementById("bannar-contanier").style.display="block"
-document.getElementById("Logout-btn").addEventListener("click",function(){
-    document.getElementById("Questions-contanier").style.display="none"
-    document.getElementById("Vocabularies-contanier").style.display="none"
-    document.getElementById("bannar-contanier").style.display="block"
-    document.getElementById("nav-contanier").style.display="none"
 
-})
+
+
 
 
